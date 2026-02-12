@@ -39,7 +39,7 @@ JSON 结构必须严格包含以下字段：
    - structureScore: 结构清晰度评分（0-15）
    - expressionScore: 表达专业性评分（0-10）
 3. summary: 字符串，一句话总结简历的整体情况。
-4. strengths: 字符串数组，列出简历的优势点。
+4. strengths: 字符串数组，列出简历的优势点【注意是数组，要使用[]包裹起来】。
 5. suggestions: 对象数组，每个对象包含以下字段：
    - category: 建议类别（内容/格式/技能/项目）
    - priority: 优先级（高/中/低）
